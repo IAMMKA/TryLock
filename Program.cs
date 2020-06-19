@@ -8,11 +8,15 @@ namespace TryLock
     {
         static void Main(string[] args)
         {
-            DigitalLock _lock = new DigitalLock(5); //chipperLength
+            DigitalLock _lock = new DigitalLock(5); 
             PickLock pickLock = new PickLock();
             Console.WriteLine("Bulunan Şifre : " + pickLock.Unlock(_lock));
-
-
+           
+            
+            
+            
+            
+            
             Console.ReadKey();
         }
     }

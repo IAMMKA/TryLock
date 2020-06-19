@@ -19,7 +19,6 @@ namespace TryLock.Classes
             Console.WriteLine("Oluşturulan Şifre : " + _lock);
             Reset();
 
-
         }
         private string GetRandomLock()
         {

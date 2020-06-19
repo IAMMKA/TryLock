@@ -33,6 +33,7 @@ namespace TryLock.Classes
                     _lock = digitalLock.ReadAll();
                 }
             }
+
             return _lock;
         }
 
@@ -44,6 +45,7 @@ namespace TryLock.Classes
             {
                 temp += "0";
             }
+
             return temp + numberStr;
 
         }
